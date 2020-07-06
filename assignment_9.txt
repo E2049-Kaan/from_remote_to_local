@@ -1,0 +1,6 @@
+first_name = input("Please enter your first name: ")
+
+if first_name == "Kaan":
+    print("Hello, Kaan! The password is : W@12")
+else:
+    print("Hello, {} ! See you later.".format(first_name))
